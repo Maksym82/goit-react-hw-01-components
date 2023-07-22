@@ -13,7 +13,7 @@ export const Profile = ({ username, tag, location, avatar, followers, views, lik
           className="avatar"
         />
         <p className="name">{username}</p>
-        <p className="tag">{tag}</p>
+        <p className="tag">@{tag}</p>
         <p className="location">{location}</p>
       </div>
 
