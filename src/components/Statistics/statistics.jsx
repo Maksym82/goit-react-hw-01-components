@@ -18,7 +18,7 @@ Statistics.propTypes = {
 };
 
 
-export const StaticticsInfo = ({ data }) => {
+const StatisticsInfo = ({ data }) => {
     return (
         <>
             {data.map(info => (
