@@ -220,3 +220,46 @@ ul {
     margin-bottom: 10px;
   }
 }
+
+.transaction-history {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+.freezz-head {
+  background-color: #64c5bd;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.freezz-head th {
+  padding: 10px 20px;
+  text-align: left;
+}
+.info-for-type {
+  text-align: center;
+}
+
+.info-for-type tr {
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.2s ease;
+}
+
+.info-for-type tr:last-child {
+  border-bottom: none;
+}
+
+.info-type {
+  padding: 15px 200px 15px 20px;
+  font-size: 16px;
+}
+
+.info-for-type tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.info-for-type tr:hover {
+  background-color: #f8c5c5;
+}
